@@ -1,0 +1,13 @@
+/* Jumbotron Styles */
+.jumbotron {
+    background: skyblue;
+    text-align: center;
+}
+.display-4 {
+    color: whitesmoke;
+    font-weight:  bold;
+}
+.row {
+    background: skyblue;
+    text-align: center;
+}
