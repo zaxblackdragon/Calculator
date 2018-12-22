@@ -5,10 +5,10 @@ The purpose of this app is practicing a short build from start to finish in one 
 ## Functionality:
 
 It Should:
--add
--subtract
--multiply 
--divide
+- add
+- subtract
+- multiply 
+- divide
 
 ### HTML
 HTML page will have buttons with the values of 1-9, operators and an equals sign that will complete each equation.
