@@ -1,13 +1,52 @@
+/* Header Box */
+.header-box {
+    background: skyblue;
+}
 /* Jumbotron Styles */
 .jumbotron {
     background: skyblue;
     text-align: center;
+    position: relative;
 }
 .display-4 {
-    color: whitesmoke;
+    color: skyblue;
     font-weight:  bold;
+}
+.lead {
+    color: rgb(82, 124, 120);
 }
 .row {
     background: skyblue;
     text-align: center;
+    display: inline-block;
+}
+.wrapper {
+    /* text-align: center; */
+}
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 2px rgb(82, 124, 120);
+    color: rgb(82, 124, 120);
+}
+.button:hover {
+    color: orange;
+    background: black;
+}
+.btn-0 {
+    width: 115px;
+    height: 50px;
+}
+.btn-equal {
+    background: rgb(254, 218, 224);
+    border: solid 2px rgb(82, 124, 120);
+    color: rgb(82, 124, 120);
+}
+.btn-operator {
+    background: rgb(82, 124, 120);
+    color: rgb(254, 218, 224);
+    border: solid 2px rgb(254, 218, 224);
+
 }
