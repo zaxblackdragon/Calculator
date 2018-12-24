@@ -40,13 +40,36 @@
     height: 50px;
 }
 .btn-equal {
-    background: rgb(254, 218, 224);
-    border: solid 2px rgb(82, 124, 120);
-    color: rgb(82, 124, 120);
+    background: rgb(146, 26, 38);
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+}
+.btn-clear {
+    width: 240px;
+    height: 50px;
+    background: lightgray;
 }
 .btn-operator {
     background: rgb(82, 124, 120);
-    color: rgb(254, 218, 224);
-    border: solid 2px rgb(254, 218, 224);
-
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+}
+#answers-titleblock {
+    text-align: left;
+    margin-bottom: 0px;
+}
+p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+    color: lightgray;
+    font-size: 30px;
+    font-style: italic;
+  }
+.answer-display {
+    background: whitesmoke;
+    width: 115px;
+    font-size: 30px;
+    border: solid 2px  rgb(82, 124, 120);
+    border-radius: 10px;
+    width: 240px;
+    margin-top: 0px;
 }
