@@ -54,20 +54,29 @@
     color: whitesmoke;
     border: solid 2px whitesmoke;
 }
-#answers-titleblock {
+#equation-titleblock {
     text-align: left;
     margin-bottom: 0px;
 }
 p:empty:not(:focus)::before {
     content: attr(data-placeholder);
     color: lightgray;
-    font-size: 30px;
+    font-size: 15px;
     font-style: italic;
   }
-.answer-display {
+.equation-display {
     background: whitesmoke;
     width: 115px;
-    font-size: 30px;
+    font-size: 20px;
+    border: solid 2px  rgb(82, 124, 120);
+    border-radius: 10px;
+    width: 240px;
+    margin-top: 0px;
+}
+.solution-display {
+    background: whitesmoke;
+    width: 115px;
+    font-size: 20px;
     border: solid 2px  rgb(82, 124, 120);
     border-radius: 10px;
     width: 240px;
