@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zaxblackdragon/Calculator#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "express": "^4.16.4"
   }
 }
