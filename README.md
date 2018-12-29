@@ -1,10 +1,12 @@
 # Calculator App
 
+### [View App](https://cryptic-brushlands-31769.herokuapp.com/)
+
 The purpose of this app is practicing a short build from start to finish in one sitting. 
 
--Practicing jquery
--Streamlining Bootstrap usage
--Using a switch() statement
+- Practicing jquery
+- Streamlining Bootstrap usage
+- Using a switch() statement
 
 ## Functionality:
 
@@ -12,6 +14,26 @@ The purpose of this app is practicing a short build from start to finish in one 
 - subtract
 - multiply 
 - divide
+
+### File Structure:
+
+#### Basic MVC
+|&#10236; server.js<br> 
+|<br>
+|&#10236; /views<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; index.html<br>
+|<br>
+|&#10236; /routes<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; htmlroutes.js<br>
+|<br>
+|&#10236; /public<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; /assets<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; /css<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; style.css<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; /js<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; calApp.js<br>
+
+
 
 ### HTML
 HTML page uses buttons with the values of 1-9, operators and an equals sign that will complete each equation and clear button to rest the page regardless of the state.
