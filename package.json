@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Basic Calculator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaxblackdragon/Calculator.git"
+  },
+  "author": "Zac Seewald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaxblackdragon/Calculator/issues"
+  },
+  "homepage": "https://github.com/zaxblackdragon/Calculator#readme"
+}
