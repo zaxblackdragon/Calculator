@@ -24,7 +24,7 @@ $(document).ready(function () {
         } else if (isOperatorChosen) {
             secondNum += $(this).val();
     // once the operator is selected, then the secondNum gets written and added to the display, showing the equation that has been built
-            $(".equation-display").append(" " + parseInt(secondNum));
+            $(".equation-display").text(parseInt(firstNum) + " " + operator + " " + parseInt(secondNum));
     // if no calculation and no operator, then create the firstNum
         } else {
             firstNum += $(this).val();

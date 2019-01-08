@@ -49,6 +49,10 @@ It completes each operator's function while adding each equation and solution to
 In it's current stage, this app has no persistance.
 
 ### Deployment
-Deployed on Heroku:
+Deployed on Heroku: [**View App**](https://cryptic-brushlands-31769.herokuapp.com/)
 
+### Notes
 
+1. **Issue** &#10236; Second number shows all inputs. It should mimic the first number's input.<br>
+**Solution** &#10236; Changed line 27 from .append() to .text(parseInt(firstNum) + " " + operator + " " + parseInt(secondNum)) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; ***Fixed***
