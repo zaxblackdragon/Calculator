@@ -15,6 +15,9 @@ $(document).ready(function () {
         $(".equation-display, .solution-display").empty();
       };
 
+// Checks to see if the solution is odd or even and displays that in the html - written in ES6
+    const isEvenOrOdd = results => results % 2 === 0 ? $("#info-box").text("Your solution is an Even Number. ") : $("#info-box").text("Your solution is an Odd Number.");
+        
 // creates the first number if no operator has been chosen, then the second number after choosing the operator
     $(".btn-num").on("click", function () {
     // checks to see if the calculation has been run
@@ -65,18 +68,22 @@ $(document).ready(function () {
             case "+":
                 results = firstNum + secondNum;
                 $(".solution-display").html(results)
+                isEvenOrOdd(results);
                     break;
             case "-":
                 results = firstNum - secondNum;
                 $(".solution-display").html(results)
+                isEvenOrOdd(results);
                     break;
             case "x":
                 results = firstNum * secondNum;
                 $(".solution-display").html(results)
+                isEvenOrOdd(results);
                     break;
             case "/":
                 results = firstNum / secondNum;
                 $(".solution-display").html(results)
+                isEvenOrOdd(results);
                     break;
         }
         // adds the "=" to the equation display

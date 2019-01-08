@@ -56,3 +56,7 @@ Deployed on Heroku: [**View App**](https://cryptic-brushlands-31769.herokuapp.co
 1. **Issue** &#10236; Second number shows all inputs. It should mimic the first number's input.<br>
 **Solution** &#10236; Changed line 27 from .append() to .text(parseInt(firstNum) + " " + operator + " " + parseInt(secondNum)) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; ***Fixed***
+
+2. **Add Feature** &#10236; Add Info: even or odd.<br>
+**Solution** &#10236; Added a function that triggers when the equals button is press and display the results of the function in an html div<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8627; ***Added***
