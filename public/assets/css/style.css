@@ -20,9 +20,6 @@
     text-align: center;
     display: inline-block;
 }
-.wrapper {
-    /* text-align: center; */
-}
 .button {
     width: 50px;
     height: 50px;
@@ -81,4 +78,12 @@ p:empty:not(:focus)::before {
     border-radius: 10px;
     width: 240px;
     margin-top: 0px;
+}
+#info-number {
+    color:rgb(146, 26, 38);
+    font-weight: bold;
+}
+#info-box {
+    margin-bottom: 10px;
+    height: 25px;
 }
